@@ -28,4 +28,11 @@ body{
     width: 300px;
     height: 150px;
     float: left;
+
   }
+
+.white-border {
+    border: 2px solid white;
+    margin-left: 320px;
+
+}
