@@ -8,7 +8,8 @@ h1{
 
 
 body{
-
+    display: flex;
+    justify-content: center;
     background-color: #900c3f;
 }
 
@@ -24,7 +25,7 @@ body{
     width: 680px;
   }
   img{
-  width50%
-  height50%
-  float:left;
+    width: 300px;
+    height: 150px;
+    float: left;
   }
