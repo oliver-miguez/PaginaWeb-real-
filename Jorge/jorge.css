@@ -1,0 +1,17 @@
+body{
+    height:50vh;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+.pixelify-sans-text {
+    font-family: "Pixelify Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    width: 680px;
+  }
