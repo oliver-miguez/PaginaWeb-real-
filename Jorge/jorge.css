@@ -1,12 +1,12 @@
 body{
     height:25vh;
-    width: 90vw;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
     background-color: #581845;
     color: white;
+    align-content: space-between;
 }
 .pixelify-sans-text {
     align-self: center;
@@ -15,6 +15,7 @@ body{
     font-weight: 400;
     font-style: normal;
     width: 680px;
+    margin-left: 150px;
   }
 .derecha{
     align-self: flex-end;
