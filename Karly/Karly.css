@@ -11,3 +11,11 @@ body{
     color: aliceblue;
 
 }
+.pixelify-sans-text {
+    font-family: "Pixelify Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    width: 680px;
+
+  }
