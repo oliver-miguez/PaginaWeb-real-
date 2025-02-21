@@ -1,11 +1,13 @@
-h1{
 
-    align-items: center; 
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 body{
-
     display: flex;
     justify-content: center;
     background-color: #900c3f;
@@ -20,5 +22,17 @@ body{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    width: 280px;
+    width: 680px;
   }
+  img{
+    width: 300px;
+    height: 150px;
+    float: left;
+
+  }
+
+.white-border {
+    border: 2px solid white;
+    margin-left: 320px;
+
+}
