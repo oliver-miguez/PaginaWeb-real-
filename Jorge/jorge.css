@@ -19,3 +19,7 @@ body{
 .derecha{
     align-self: flex-end;
 }
+button{
+    background-color: black;
+    color: white;
+}
