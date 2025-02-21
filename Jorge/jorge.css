@@ -5,7 +5,7 @@ body{
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
-    background-color: black;
+    background-color: #581845;
     color: white;
 }
 .pixelify-sans-text {
