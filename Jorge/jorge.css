@@ -2,16 +2,20 @@ body{
     height:50vh;
     width: 90vw;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
     background-color: black;
     color: white;
-    justify-content: center;
 }
 .pixelify-sans-text {
+    align-self: center;
     font-family: "Pixelify Sans", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     width: 680px;
   }
+.derecha{
+    align-self: flex-end;
+}
