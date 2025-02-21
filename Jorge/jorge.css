@@ -20,6 +20,10 @@ body{
     font-weight: 400;
     font-style: normal;
     width: 680px;
+
+
+  }
+
   }
 .derecha{
     align-self: flex-end;
@@ -28,3 +32,4 @@ button{
     background-color: black;
     color: white;
 }
+
