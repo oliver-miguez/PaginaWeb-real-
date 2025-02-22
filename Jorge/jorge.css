@@ -4,6 +4,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 
+    height:25vh;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
