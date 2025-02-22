@@ -23,6 +23,7 @@ body{
 
 }
 .derecha{
+    margin-right: 12px;
     align-self: flex-end;
 }
 button{
