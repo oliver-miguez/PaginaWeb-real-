@@ -20,8 +20,11 @@ body{
     font-weight: 400;
     font-style: normal;
     width: 680px;
-  }
+
+
+}
 .derecha{
+    margin-right: 12px;
     align-self: flex-end;
 }
 button{
