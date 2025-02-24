@@ -85,6 +85,14 @@ body {
 
 /* Estilo de los botones */
 button {
+
+
+}
+.derecha{
+    margin-right: 12px;
+    align-self: flex-end;
+}
+button{
     background-color: black;
     color: white;
     padding: 10px 20px;
