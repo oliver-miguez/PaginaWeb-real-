@@ -1,64 +1,47 @@
-body {
-    background-image: url('imagen2.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body{
+
     background-color: #FF5733;
+    justify-content: center;
+    padding: 80px;
+    margin: 100px;
     color: white;
-    margin: 0;
-    padding: 0;
-    font-family: "Pixelify Sans", serif;
-    text-align: center; /* Asegura el centrado del texto */
 }
+.titulo{
+    font-size: 55px;
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    max-width: 800px; /* Asegura que el contenido no sea demasiado ancho */
+    max-width: 600px; /* Asegura que el contenido no sea demasiado ancho */
     margin: auto; /* Centra el contenedor horizontalmente */
 }
 
 .titulo {
     font-size: 50px;
     color: aliceblue;
-    margin: 20px 0;
-}
 
+}
 .pixelify-sans-text {
+
     font-family: "Pixelify Sans", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    width: 680px;
     margin: 20px 0;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 img {
-    width: 300px;
-    height: 150px;
-    margin: 20px 0;
-}
-
-.Descripcion {
-    font-size: 1em;
-    color: white;
-    margin: 20px 0;
-}
-
-.video-container {
-    width: 600px;
-    height: 510px;
-    margin: 20px 0;
-}
-
-video {
     width: 100%;
     height: 100%;
+    margin: 20px 0;
 }
+
+  }
+  h2{
+     font-size: 55px;
+     font-family: 'Moirai One', sans-serif;
+  }
