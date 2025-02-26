@@ -1,15 +1,49 @@
-body{
-    background-color: #C70039;
-    color: white;
+body {
+    margin-top: 250px;
     display: flex;
     justify-content: center;
-
+    align-items: center;
+    background-color: #c70039;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    
 }
 
+
+.texto_concepto {
+    font-size: 2em;
+    color: white;
+    animation: bounce 2s ease-in-out infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+
 .pixelify-sans-text {
+    
     font-family: "Pixelify Sans", serif;
-    font-optical-sizing: auto;
+    font-size: 20px;
     font-weight: 400;
     font-style: normal;
-    width: 280px;
-  }
+    width: 680px;
+}
+.texto{
+    font-size: 1em;
+    color: white;
+
+
+
+.color{
+    color: black;
+}
+
