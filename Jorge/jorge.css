@@ -1,18 +1,247 @@
-body{
-    height:50vh;
-    width: 90vw;
+
+body {
+    background-image: url('imagen2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
     background-color: #581845;
     color: white;
+    margin: 0;
+    padding: 0;
+    font-family: "Pixelify Sans", serif;
+}
+
+/*  Fijar la barra de navegación arriba */
+#header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro semitransparente */
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    z-index: 10px;
+}
+
+/* 🔹 Estilos del menú */
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
     justify-content: center;
 }
+
+.nav > li {
+    position: relative;
+    float: left;
+}
+
+.nav li a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+}
+
+.nav li a:hover {
+    background-color: #fc0781;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    background-color: #333;
+}
+
+.nav li:hover > ul {
+    display: block;
+}
+
+/* 🔹 Centrar el contenido principal */
+.pixelify-sans-text {
+    flex-grow: 1; /* Hace que el contenido ocupe el espacio restante */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px; /* Espacio para evitar que el título quede oculto por la barra */
+    font-size: 20px;
+}
+
+
+@keyframes pixelatedBounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Rebote hacia arriba */
+    }
+    100% {
+        transform: translateY(0); /* Vuelve a su lugar */
+    }
+}
+
+.titulo {
+    font-size: 55px;
+    color: aliceblue;
+    margin: 20px 0;
+    animation: pixelatedBounce 0.8s ease-in-out infinite;
+    font-family: "Pixelify Sans", serif;
+}
+
+
+/* 🔹 Estilos del título */
+.titulo h1 {
+    font-family: "Pixelify Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    background: linear-gradient(90deg, rgb(30, 255, 79), #48ff00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8);
+    -webkit-text-stroke: 1px black;
+}
+
+/* 🔹 Botones */
+.derecha {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+
+}
+
+button {
+    font-family: "Pixelify Sans", serif;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fc0781;
+}
+
+/* 🔹 Línea divisoria */
+hr {
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid #fff;
+}
+
+Karly html:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Karly.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+And+White+Picture&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+12&family=Pixelify+Sans&display=swap" rel="stylesheet">
+</head>
+<body class="pixelify-sans-text">
+    <div class="container">
+        <p class="titulo"><strong> Kitty RACING ADVENTURES</strong></p>
+        <img src="https://cdn6.aptoide.com/imgs/e/0/c/e0c3b00d6f2586896b0d89ea2ef93861_fgraphic.jpg" alt="Hello Kitty">
+        <p class="Descripcion">Hello Kitty Racing Adventures es un juego de carreras y plataformas en el que tendremos que ayudar a la gatita Kitty a llegar tan lejos como pueda con su vehículo, mientras por el camino recogemos todas las monedas que encontramos y hacemos alguna que otra maniobra espectacular.</p>
+        <div class="video-container">
+            <video controls>
+                <source src="Hello Kitty Racing Adventures  Are you ready to race with Hello Kitty Download the game via the below links and start racing Android  httpsgoo.glxbdAsUApple devices...  By Hello Kitty Europe.mp4" type="video/mp4">
+                Tu navegador no soporta este formato de video.
+            </video>
+        </div>
+    </div>
+</body>
+</html>
+
+karly css:
+
+/* Configuración del cuerpo */
+body {
+    background-image: url('imagen2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF5733;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Pixelify Sans", serif;
+    text-align: center;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.6); /* Fondo semitransparente para mejor legibilidad */
+    padding: 40px;
+    border-radius: 15px;
+}
+
+/* Estilos del título */
+.titulo {
+    font-size: 55px;
+    color: aliceblue;
+    margin: 20px 0;
+}
+
+/* Estilos del texto */
 .pixelify-sans-text {
     font-family: "Pixelify Sans", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    width: 680px;
+    width: 100%;
+    margin: 20px 0;
+    font-size: 25px;
+}
 
-  }
+/* Imágenes */
+img, video{
+    width: 500px;
+    height: 250px;
+    margin: 20px 0;
+    object-fit: cover;
+}
+
+/* Descripción */
+.Descripcion {
+    font-size: 1em;
+    color: white;
+    margin: 20px 0;
+}
+
+/* Contenedor del video */
+.video-container {
+    width: 600px;
+    height: 510px;
+    margin: 20px 0;
+}
