@@ -26,8 +26,6 @@ body {
         transform: translateY(-15px);
     }
 }
-
-
 .pixelify-sans-text {
     
     font-family: "Pixelify Sans", serif;
@@ -39,9 +37,7 @@ body {
 .texto{
     font-size: 1em;
     color: white;
-
-
-
+    }
 .color{
     color: black;
 }
