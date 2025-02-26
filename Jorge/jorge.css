@@ -7,6 +7,7 @@ body {
     height: 100vh;
     width: 100vw;
     display: flex;
+
     flex-direction: column;
     align-items: center;
     background-color: #581845;
@@ -30,12 +31,14 @@ body {
 }
 
 /* 🔹 Estilos del menú */
+
 .nav {
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
     justify-content: center;
+
 }
 
 .nav > li {
@@ -46,6 +49,7 @@ body {
 .nav li a {
     color: white;
     background-color: black;
+
     text-decoration: none;
     padding: 10px 12px;
     display: block;
@@ -53,6 +57,7 @@ body {
 
 .nav li a:hover {
     background-color: #fc0781;
+
 }
 
 .nav li ul {
@@ -214,7 +219,9 @@ body {
 }
 
 /* Estilos del texto */
+
 .pixelify-sans-text {
+    align-self: center;
     font-family: "Pixelify Sans", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -245,3 +252,4 @@ img, video{
     height: 510px;
     margin: 20px 0;
 }
+
