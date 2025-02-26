@@ -1,26 +1,71 @@
-body{
-
-    background-color: #FF5733;
+/* Configuración del cuerpo */
+body {
+    background-image: url('imagen2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
     justify-content: center;
-    padding: 80px;
-    margin: 100px;
+    align-items: center;
+    background-color: #FF5733;
+    margin: 0;
+    padding: 0;
     color: white;
+    font-family: "Pixelify Sans", serif;
+    text-align: center;
 }
-.titulo{
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 600px; 
+    margin: auto; 
+    background: rgba(0, 0, 0, 0.6); /* Fondo semitransparente para mejor legibilidad */
+    padding: 40px;
+    border-radius: 15px;
+}
+
+/* Estilos del título */
+.titulo {
     font-size: 55px;
     color: aliceblue;
-
+    margin: 20px 0;
 }
+
+/* Estilos del texto */
 .pixelify-sans-text {
-   
     font-family: "Pixelify Sans", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    width: 680px;
+    width: 100%;
+    margin: 20px 0;
+    font-size: 25px;
+}
 
-  }
-  h2{
-     font-size: 55px;
-     font-family: 'Moirai One', sans-serif;
-  }
+/* Imágenes */
+img, video{
+    width: 500px;
+    height: 250px;
+    margin: 20px 0;
+    object-fit: cover; 
+}
+
+/* Descripción */
+.Descripcion {
+    font-size: 1em;
+    color: white;
+    margin: 20px 0;
+}
+
+/* Contenedor del video */
+.video-container {
+    width: 600px;
+    height: 510px;
+    margin: 20px 0;
+}
