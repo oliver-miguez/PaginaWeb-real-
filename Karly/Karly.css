@@ -1,6 +1,6 @@
 /* Configuración del cuerpo */
 body {
-    background-image: url('imagen2.jpg');
+    background-image: url('https://cdna.artstation.com/p/assets/images/images/035/589/978/original/pixel-jeff-dream2.gif?1615369313');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -68,4 +68,20 @@ img, video{
     width: 600px;
     height: 510px;
     margin: 20px 0;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+.titulo{
+    animation: bounce 2s ease-in-out infinite;
+
 }

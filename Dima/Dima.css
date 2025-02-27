@@ -5,7 +5,11 @@ body {
     align-items: center;
     background-color: #c70039;
     font-family: Arial, sans-serif;
-    
+    background-image: url('https://cdna.artstation.com/p/assets/images/images/063/357/982/original/bryan-heemskerk-eldenringfinal.gif?1685365876' );
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 .container {
     display: flex;
