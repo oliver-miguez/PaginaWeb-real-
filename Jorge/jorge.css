@@ -52,7 +52,8 @@ body {
 }
 
 .nav li a:hover {
-    background-color: #434343;
+    background-color: #be0000
+;
 }
 
 .nav li ul {
@@ -107,6 +108,7 @@ body {
 }
 
 button {
+font-family: "Pixelify Sans", serif;
     background-color: black;
     color: white;
     padding: 10px 20px;
@@ -116,7 +118,8 @@ button {
 }
 
 button:hover {
-    background-color: #434343;
+    background-color:#be0000
+    ;
 }
 
 /* 🔹 Línea divisoria */
