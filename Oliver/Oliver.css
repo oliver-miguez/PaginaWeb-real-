@@ -8,9 +8,14 @@ h1{
 
 
 body{
+margin-top: 30px;
+margin-bottom: 30px;
     display: flex;
     justify-content: center;
     background-color: #900c3f;
+    background-image: url('https://i.redd.it/b9d9kbfcp0gc1.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .color{
