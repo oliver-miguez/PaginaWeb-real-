@@ -45,3 +45,14 @@ body{
 .war{
     margin-top: 500px;
 }
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 650px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.6); /* Fondo semitransparente para mejor legibilidad */
+    padding: 40px;
+    border-radius: 15px;
+}
