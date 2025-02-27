@@ -1,6 +1,6 @@
 /* Configuración del cuerpo */
 body {
-    background-image: url('imagen2.jpg');
+    background-image: url('https://i.pinimg.com/originals/65/ff/25/65ff25ffbe3786b2de094f7051bbd873.gif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,6 +14,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Pixelify Sans", serif;
+    image-rendering: pixelated; /* Añade esta línea */
 }
 
 /*  Fijar la barra de navegación arriba */
@@ -78,16 +79,23 @@ body {
 }
 
 /* 🔹 Estilos del título */
+/* 🔹 Estilos del título */
 .titulo h1 {
     font-family: "Pixelify Sans", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 60px;
-    background: linear-gradient(90deg, white, #FFD700);
+    font-size: 80px;
+    background: linear-gradient(90deg, #be0000, #cd0602);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: #ff0062
+    ; /* Cambia el color del texto a blanco */
     margin-bottom: 10px;
+    text-shadow:
+        -2px -2px 0 #000,
+         2px -2px 0 #000,
+        -2px  2px 0 #000,
+         2px  2px 0 #000; /* Añade un borde negro fino */
 }
 
 /* 🔹 Botones */
@@ -116,4 +124,22 @@ hr {
     width: 50%;
     margin: 20px auto;
     border: 1px solid #fff;
+}
+
+.Subtitulo{
+    text-shadow:
+    -2px -2px 0 #000,
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000; /* Añade un borde negro fino */
+     font-size: 23px;
+}
+
+h1{
+    text-shadow:
+    -2px -2px 0 #000,
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000; /* Añade un borde negro fino */
+}
 }
